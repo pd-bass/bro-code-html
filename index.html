@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/jpg" href="/media/images/favicon.jpg">
         <title>My First Web Page</title>
     </head>
     <body>
@@ -21,6 +24,20 @@
         <!-- This is a comment 
          over several lines-->
 
+        <!-- Formatting -->
+         <p>This is normal text </p>
+         <p>This is <b>bold</b> text </p>
+         <p>This is <i>italic</i> text </p>
+         <p>This is <u>underlined</u> text </p>
+         <p>This is <del>deleted</del> text </p>
+         <p>This is <big>big</big> text </p>
+         <p>This is <small>small</small> text </p>
+         <p>This is <sub>subscript</sub> text </p>
+         <p>This is <sup>superscript</sup> text </p>
+         <p>This is <tt>monospaced</tt> text </p>
+         <p>This is <mark style="background-color:lightblue">highlighted</mark> text </p>
+
+         <!-- Different links and media-types-->
          <a href="https://www.google.com" 
          target="_blank"
          title="Goes to Mordor">
@@ -43,5 +60,15 @@
             <br>
             click here for a great image
         </a>
+
+        <audio controls>
+            <!-- Options: autoplay, muted, loop-->
+            <source src="/media/audio/audio-01.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <video src="/media/video/video-01.mp4" width="500px" controls>
+            Your browser does not support the video tag.
+        </video>
+
     </body>
 </html>
